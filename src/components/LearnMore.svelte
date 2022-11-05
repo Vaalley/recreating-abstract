@@ -52,15 +52,15 @@
 </script>
 
 <div class="flex">
-	<div class="grid grid-cols-2 gap-20 my-48 mx-48">
+	<div class="grid grid-cols-2 -md:grid-cols-1 gap-10 my-[15vh] mx-[6vw]">
 		{#each data as item}
 			<div class="flex">
 				<div class="min-w-[90px] mr-8">
 					<img src={item.imageSrc} alt={item.imageAlt} />
 				</div>
 				<div>
-					<h3 class="mb-4 text-2xl font-bold">{item.header}</h3>
-					<p class="mb-4 text-2xl">{item.text}</p>
+					<h3 class="mb-3 text-2xl font-bold">{item.header}</h3>
+					<p class="mb-3 text-2xl">{item.text}</p>
 					<a href="/" class="text-xl text-primary">{item.link}</a>
 				</div>
 			</div>

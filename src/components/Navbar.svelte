@@ -1,4 +1,4 @@
-<div class="bg-black px-[7%] text-white flex justify-end h-[88px] items-center text-2xl">
+<div class="bg-black px-[7%] -md:px-6 text-white flex justify-end h-[88px] items-center text-2xl">
 	<div class="mr-auto flex gap-4">
 		<svg
 			class="abstract-logo logo w-[126px]"
@@ -47,17 +47,18 @@
 				/>
 			</g>
 		</svg>
-		<!-- <p>Abstract</p> -->
 		<p>|</p>
 		<p>Help Center</p>
 	</div>
 	<div class="flex gap-4">
 		<a href="/"
-			><p class="bg-grey px-[22px] py-[8px] rounded-md border border-white">Submit a request</p></a
+			><p class="bg-grey px-[22px] py-[8px] rounded-md border border-white -lg:hidden">
+				Submit a request
+			</p></a
 		>
 		<a href="/"
 			><p
-				class="bg-primary px-[32px] py-[8px] rounded-md hover:bg-white hover:text-black transition-all"
+				class="bg-primary px-[32px] py-[8px] rounded-md hover:bg-white hover:text-black transition-all -lg:hidden"
 			>
 				Sign in
 			</p></a

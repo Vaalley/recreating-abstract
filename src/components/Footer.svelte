@@ -1,32 +1,34 @@
 <div class="h-[400px] bg-black text-white flex justify-around py-12">
-	<div>
-		<h3 class="text-2xl font-bold mb-4">Header1</h3>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-	</div>
-	<div>
-		<h3 class="text-2xl font-bold mb-4">Header2</h3>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-	</div>
-	<div>
-		<h3 class="text-2xl font-bold mb-4">Header3</h3>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-	</div>
-	<div>
-		<h3 class="text-2xl font-bold mb-4">Header4</h3>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-		<p class="text-base">Some text</p>
-		<h4 class="text-base font-medium mt-6">Small header</h4>
-		<p class="text-base">Some text</p>
+	<div class="grid grid-cols-4 gap-x-[10vw] -lg:grid-cols-2">
+		<div>
+			<h3 class="text-2xl -lg:text-xl font-bold mb-4">Header1</h3>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+		</div>
+		<div>
+			<h3 class="text-2xl -lg:text-xl font-bold mb-4">Header2</h3>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+		</div>
+		<div class="-lg:mt-8">
+			<h3 class="text-2xl -lg:text-xl font-bold mb-4">Header3</h3>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+		</div>
+		<div class="-lg:mt-8">
+			<h3 class="text-2xl -lg:text-xl font-bold mb-4">Header4</h3>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<p class="text-base -lg:text-sm">Some text</p>
+			<h4 class="text-base -lg:text-sm font-medium mt-6">Small header</h4>
+			<p class="text-base -lg:text-sm">Some text</p>
+		</div>
 	</div>
 	<div class="self-end">
 		<svg
@@ -42,8 +44,8 @@
 				<circle cx="21.24" cy="29.58" r="4.96" />
 			</g>
 		</svg>
-		<p class="text-xl font-medium mt-6">© Some text</p>
-		<p class="text-xl font-medium">Some text</p>
-		<p class="text-xl font-medium">Some text</p>
+		<p class="text-xl -md:text-lg font-medium mt-6">© Some text</p>
+		<p class="text-xl -md:text-lg font-medium">Some text</p>
+		<p class="text-xl -md:text-lg font-medium">Some text</p>
 	</div>
 </div>
